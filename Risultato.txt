@@ -1,0 +1,17 @@
+Posto: 14, Thread seduto: Thread-9ID: 31
+Posto: 0, Thread seduto: Thread-15 ID: 37
+Posto: 1, Thread seduto: Thread-9 ID: 31
+Posto: 2, Thread seduto: Thread-2 ID: 24
+Posto: 3, Thread seduto: Thread-13 ID: 35
+Posto: 4, Thread seduto: Thread-7 ID: 29
+Posto: 5, Thread seduto: Thread-8 ID: 30
+Posto: 6, Thread seduto: Thread-10 ID: 32
+Posto: 7, Thread seduto: Thread-12 ID: 34
+Posto: 8, Thread seduto: Thread-6 ID: 28
+Posto: 9, Thread seduto: Thread-3 ID: 25
+Posto: 10, Thread seduto: Thread-16 ID: 38
+Posto: 11, Thread seduto: Thread-4 ID: 26
+Posto: 12, Thread seduto: Thread-1 ID: 23
+Posto: 13, Thread seduto: Thread-5 ID: 27
+Posto: 14, Thread seduto: Thread-11 ID: 33
+

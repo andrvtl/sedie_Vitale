@@ -28,6 +28,10 @@ class Partecipante extends Thread
 				if (sedie[i].occupa()) {
 					System.out.println("Sono il Thread " + this.getName()
 							+ ". Sono riuscito a sedermi sul posto " + i);
+                                        
+                                        Scrittore scrittore = new Scrittore("Risultato.txt", "Posto: " + i + ", Thread seduto: " + getName() + " ID: " + getId());
+                                        scrittore.scrivi();
+                                        
 					return;
 				}
 			}
