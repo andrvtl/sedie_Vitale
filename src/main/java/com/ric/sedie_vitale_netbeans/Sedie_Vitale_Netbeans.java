@@ -18,9 +18,12 @@ public class Sedie_Vitale_Netbeans {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        // Dichiara un array prendendo il tipo dalla classe Posto
         Posto sedie[] = new Posto[NUMSEDIE];
 
+        
 	for (int k = 0; k < sedie.length; k++)
+                // Crea un oggetto di tipo posto per ogni indice dell'array (ogni sedia)
 		sedie[k] = new Posto();
 
 	Display display = new Display(sedie);

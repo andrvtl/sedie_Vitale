@@ -8,6 +8,13 @@ package com.ric.sedie_vitale_netbeans;
  *
  * @author Studente
  */
+
+/**
+ * Classe che rappresenta graficamente attraverso una stringa di testo i posti occupati
+ * All'asterisco corrisponde un posto occupato, allo zero uno libero
+ * Scorrendo l'array è controllando il valore booleano "libero" viene determinato se il posto è libero o meno
+ * 
+ */
 class Display extends Thread
 
 {
@@ -33,14 +40,19 @@ class Display extends Thread
 
 				for (int i = 0; i < sedie.length; i++) {
 				
+                                        // controlla "libero" all'indice "i"
 					if (sedie[i].libero())
+                                                // se è libero stampa "0"
 						System.out.print("0");
 					else {
-						count++;
+                                                /* altrimenti stampa un'asterisco e 
+                                                aumenta il count delle sedie occupate*/
+                                                count++;
 						System.out.print("*");
 					}
 				}
 				System.out.println();
+                                // quando il count delle sedie occupate arriva a 15 il gioco finisce
 				endgame = (count == sedie.length);
 			}
 		} catch (InterruptedException e) {

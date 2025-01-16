@@ -8,6 +8,14 @@ package com.ric.sedie_vitale_netbeans;
  *
  * @author andrvtl
  */
+
+/**
+ * Classe che definisce il comportamento delle sedie rispetto ai giocatori
+ * Il posto può essere occupato o non occupato (!occupato)
+ * Nei due metodi libero() e occupa() viene definito lo stato della variabile occupato
+ * Se il posto è già occupato occupa() restituisce false, altrimenti imposta occupato su true
+ * 
+ */
 class Posto
 
 {
