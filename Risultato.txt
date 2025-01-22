@@ -14,4 +14,8 @@ Posto: 14, Thread seduto: Thread-9ID: 31
 Posto: 12, Thread seduto: Thread-1 ID: 23
 Posto: 13, Thread seduto: Thread-5 ID: 27
 Posto: 14, Thread seduto: Thread-11 ID: 33
+Posto: 0, Thread seduto: Thread-3 ID: 25
+Posto: 1, Thread seduto: Thread-4 ID: 26
+Posto: 2, Thread seduto: Thread-2 ID: 24
+Posto: 3, Thread seduto: Thread-5 ID: 27
 

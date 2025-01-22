@@ -6,13 +6,13 @@ package com.ric.sedie_vitale_netbeans;
 
 /**
  *
- * @author Studente
+ * @author andrvtl
  */
 
 /**
  * Classe che rappresenta graficamente attraverso una stringa di testo i posti occupati
  * All'asterisco corrisponde un posto occupato, allo zero uno libero
- * Scorrendo l'array è controllando il valore booleano "libero" viene determinato se il posto è libero o meno
+ * Scorrendo l'array e controllando il valore booleano "libero" viene determinato se il posto è libero o meno
  * 
  */
 class Display extends Thread

@@ -27,10 +27,18 @@ class Posto
 		occupato = false;
 	}
 
+	
+	/** 
+	 * @return boolean
+	 */
 	public synchronized boolean libero() {
 		return (!occupato);
 	}
 
+	
+	/** 
+	 * @return boolean
+	 */
 	public synchronized boolean occupa() {
 		if (occupato)
 			return false;
