@@ -16,4 +16,8 @@ Template preso da [Keep a Changelog](http://keepachangelog.com/) [Semantic Versi
 - Il file viene generato ad ogni esecuzione, sovrascrivendo quello precedente, nel caso in cui ci sia.
 - La cartella in cui viene generato è la root del progetto.
 
+## [Versione 1.2] - 22-01-2025
+
 ### Cambiamenti
+- Aggiunta della possibilità di scegliere il numero di partecipanti all'inizio dell'esecuzione del programma.
+- Uso della classe Scanner per l'implementazione della funzionalità.
